@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-  font-size: 0.75em;
+  font-size: 20em;
   margin: -5px 0 0;
   font-weight: normal;
 }
@@ -196,7 +196,7 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: sienna;
 }
 
 /* logo text */
@@ -211,12 +211,12 @@ a {
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: cornsilk;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #007000;
+  color: firebrick);
 }
 
 
@@ -245,6 +245,10 @@ nav a.selected, nav a:hover {
   .profile-photo{
     float: left;
     margin: 0 5% 80px 0;
+    }
+
+  nav a.selected, nav a:hover {
+    color: rgb(240, 142, 105);
   }
 }
 
@@ -283,10 +287,17 @@ nav a.selected, nav a:hover {
     margin-bottom: 60px;
   }
 
+  nav a.selected, nav a:hover {
+    color: rgb(240, 142, 105);
+  }
 
 
 
+}
 
+
+h2{
+  font-size: 1em;
 }
 
 
